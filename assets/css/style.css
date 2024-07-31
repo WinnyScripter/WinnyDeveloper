@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Itim", cursive;
+}
+
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+    height: 60px;
+    box-shadow: 0 0 24px #6e00ff4d;
+}
+
+.title-logo .title {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul li a:hover {
+    color: #888;
+}

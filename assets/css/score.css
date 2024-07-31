@@ -1,0 +1,105 @@
+.container-img-score {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.img-slide img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 24px #6e00ff4d;
+    border: solid 2px #6e00ff;
+}
+
+.score-all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.score-all > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    box-shadow: 0 0 24px #6e00ff4d;
+    border: 2px solid #6e00ff;
+    border-radius: 10px;
+    width: 196px;
+    height: 80px;
+    margin: 0 10px;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s, width 0.3s ease;
+}
+
+.score-all > div:hover {
+    background-color: #333;
+    border-color: #9b4dff;
+    width: 234px;
+    z-index: 1;
+}
+
+.score-all > div i {
+    font-size: 2em;
+    color: #666;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+.score-all > div:hover i {
+    font-size: 2.5em;
+    color: #9b4dff;
+}
+
+.score-all > div:hover .student-number,
+.score-all > div:hover .teacher-number,
+.score-all > div:hover .building-number,
+.score-all > div:hover .room-number {
+    font-size: 4.2em;
+    transition: font-size 0.3s;
+}
+
+.score-all .student-score-text,
+.score-all .teacher-score-text,
+.score-all .building-score-text,
+.score-all .room-score-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+}
+
+.score-all .student-number,
+.score-all .teacher-number,
+.score-all .building-number,
+.score-all .room-number {
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0;
+    transition: font-size 0.3s;
+}
+
+small {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.student-all i {
+    right: 10px;
+}
+
+.teacher-all i {
+    right: 10px;
+}
+
+.building-all i {
+    right: 10px;
+}
+
+.room-all i {
+    right: 10px;
+}
